@@ -1,4 +1,4 @@
-package de.kardanov.stub;
+package de.kardanov.fhirme;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

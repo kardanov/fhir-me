@@ -1,10 +1,8 @@
-package de.kardanov.stub;
+package de.kardanov.fhirme;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import de.kardanov.stub.Application;
 
 /**
  * Test class for {@link Application}.

@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.kardanov</groupId>
-    <artifactId>spring-boot-stub</artifactId>
+    <artifactId>fhir-me</artifactId>
     <version>0.0.1</version>
-    
+
     <developers>
         <developer>
             <id>kardanov</id>
@@ -14,7 +14,7 @@
             <organizationUrl>http://kardanov.de</organizationUrl>
         </developer>
     </developers>
-    
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -24,10 +24,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.5.RELEASE</version>
+        <version>2.3.1.RELEASE</version>
         <relativePath/>
     </parent>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -44,16 +44,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
+
     <build>
         <finalName>spring-boot-stub</finalName>
         <plugins>
             <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>  
-                <configuration>  
-                    <source>${maven.compiler.source}</source>  
-                    <target>${maven.compiler.target}</target>  
-                </configuration>  
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -62,7 +62,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.3</version>
+                <version>0.8.5</version>
                 <executions>
                     <execution>
                         <id>default-prepare-agent</id>

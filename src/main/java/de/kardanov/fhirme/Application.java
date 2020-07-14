@@ -1,9 +1,8 @@
-package de.kardanov.stub;
+package de.kardanov.fhirme;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -13,7 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 0.0.1
  */
 @SpringBootApplication
-@EnableAutoConfiguration
 public class Application {
     
     /** Logger. */
@@ -29,6 +27,6 @@ public class Application {
      */
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
-        logger.info("spring-boot-stub :: app started.");
+        logger.info("fhir-me :: app started");
     }
 }

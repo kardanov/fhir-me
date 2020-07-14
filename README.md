@@ -1,2 +1,2 @@
-# spring-boot-stub
-Basic stub for Spring-Boot project
+# fhir-me
+Test project to try FHIR out
